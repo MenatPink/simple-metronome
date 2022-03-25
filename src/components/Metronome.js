@@ -21,6 +21,7 @@ const Metronome = () => {
             Tone.Transport.scheduleRepeat((time) => {
                 osc.start(time).stop(time + 0.1);
             }, "4n");
+            Tone.Transport.stop().start();
         } else {
             Tone.Transport.stop();
         }
