@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@700&display=swap');
+
+
+//RESETS
+*{
+  margin:0;
+  padding:0;
+}
+
+//UTILITY
+
+.d-flex{
+  display:flex;
+}
+
+.d-flex-center{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.flex-column{
+  flex-direction:column;
+}
+
+
+//CUSTOM
+.background{
+  background: linear-gradient(235deg, #1CB5E0 0%, #000851 100%);
+  width:100%;
+  height:100vh;
+}

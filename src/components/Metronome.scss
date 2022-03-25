@@ -1,0 +1,42 @@
+h1, h2{
+	font-family: 'Red Hat Mono', monospace;
+    color:#fff;
+}
+
+.tempo-display{
+    font-size:5em;
+    text-transform:uppercase;
+}
+
+.metronome-container{
+    min-height:400px;
+    justify-content:space-around;
+}
+
+.tap-tempo-button{
+    border:none;
+    border-radius:10px;
+    background-color:#000851;
+    min-width:200px;
+    min-height:50px;
+    color:white;
+    font-family: 'Red Hat Mono', monospace;
+    cursor:pointer;
+}
+
+.controls-container{
+    min-width:200px;
+    display:flex;
+    justify-content:space-around;
+}
+
+.stop-button, .play-button{
+    border-radius:100px;
+    width:70px;
+    height:70px;
+    border:none;
+    background-color: #000851;
+    color:white;
+    cursor:pointer;
+    font-family: 'Red Hat Mono', monospace;
+}
