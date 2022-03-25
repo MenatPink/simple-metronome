@@ -15,13 +15,12 @@ const Metronome = () => {
 
     useEffect(() => {
         if (playing) {
+            Tone.start();
             Tone.Transport.bpm.value = bpm;
-            console.log(Tone.Transport.bpm.value);
             Tone.Transport.stop().start();
             Tone.Transport.scheduleRepeat((time) => {
                 osc.start(time).stop(time + 0.1);
             }, "4n");
-            Tone.Transport.start();
         } else {
             Tone.Transport.stop();
         }
